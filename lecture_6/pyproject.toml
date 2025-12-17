@@ -1,0 +1,21 @@
+[project]
+package-mode = "false"
+name = "lecture-6"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Zybailo Egor",email = "wornikarn@gmail.com"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "uvicorn (>=0.38.0,<0.39.0)",
+    "fastapi (>=0.124.2,<0.125.0)",
+    "sqlalchemy (>=2.0.45,<3.0.0)",
+    "pydantic (>=2.12.5,<3.0.0)",
+    "aiosqlite (>=0.21.0,<0.22.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
